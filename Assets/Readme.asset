@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier:
+  commonStyle: {fileID: 7433441132597879392, guid: d2c670ece470f4c4fa6712b8dc28a9bb, type: 3}
+  darkStyle: {fileID: 7433441132597879392, guid: 1f902e57f049a7f47986618de93f5ee1, type: 3}
+  lightStyle: {fileID: 7433441132597879392, guid: 69e7ab73923f93149821ac3a88b84856, type: 3}
+  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
+  title: Space Invaders 3D - Assignment 1
+  sections:
+  - heading: Welcome
+    text: Defend the screen from five increasingly challenging alien waves. Win by clearing every wave. The game ends if the fleet reaches the lower loss line or your four lives run out.
+    linkText:
+    url:
+  - heading: Controls
+    text: Move with Left/Right Arrow or A/D. Fire with Space. Use the on-screen Start Playing and Retry buttons, or press Enter.
+    linkText:
+    url:
+  - heading: Required Improvements
+    text: The remaining aliens speed up as their companions are destroyed. The fleet turns at the visible playfield edge and steps downward. Reaching the lower loss line ends the game. The spaceship is clamped inside the camera view.
+    linkText:
+    url:
+  - heading: Additional Features
+    text: Five waves add level progression and a win condition. Alien shots are staggered for challenge balance. Four heart icons show remaining lives; taking a hit costs one life and respawns the ship. Start and ending screens support mouse clicks and Enter.
+    linkText:
+    url:
+  - heading: Code Improvements
+    text: Projectile motion is time based. Fleet movement uses explicit direction and pause state, avoids overshooting the screen edge, and removes destroyed aliens before updating the count. Wave layout and movement settings are configurable.
+    linkText:
+    url:
+  loadedLayout: 1
